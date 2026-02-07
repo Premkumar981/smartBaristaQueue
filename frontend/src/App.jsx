@@ -8,7 +8,7 @@ import Staff from './pages/Staff';
 import Simulation from './pages/Simulation';
 import Complaints from './pages/Complaints';
 
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = '/api';
 
 const App = () => {
     const [queue, setQueue] = useState([]);

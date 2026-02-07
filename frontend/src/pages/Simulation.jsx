@@ -9,7 +9,7 @@ import {
     LineChart, Line, Cell
 } from 'recharts';
 
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = '/api';
 
 const COLORS = ['#8b4513', '#d2691e', '#f4a460']; // Coffee-inspired colors
 

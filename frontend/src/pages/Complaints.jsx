@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { AlertCircle, User, MessageSquare, Clock, Send, ShieldAlert } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = '/api';
 
 const Complaints = ({ baristas }) => {
     const [complaints, setComplaints] = useState([]);
